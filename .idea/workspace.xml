@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d385a9c-e4f7-4a7e-ba25-7b29307e261c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Couter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Couter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/MuchCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/MuchCounter.js" afterDir="false" />
     </list>
@@ -19,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -27,20 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Couter.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Couter.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/component/Couter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MuchCounter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MuchCounter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/MuchCounter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="415">
+              <caret line="31" column="60" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="60" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -124,8 +125,8 @@
         <option value="$PROJECT_DIR$/src/component/AddAndReduce.js" />
         <option value="$PROJECT_DIR$/src/component/multipleCouter.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/component/Couter.js" />
         <option value="$PROJECT_DIR$/src/component/MuchCounter.js" />
+        <option value="$PROJECT_DIR$/src/component/Couter.js" />
       </list>
     </option>
   </component>
@@ -254,7 +255,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531882814374</updated>
-      <workItem from="1531882815765" duration="20865000" />
+      <workItem from="1531882815765" duration="24186000" />
     </task>
     <task id="LOCAL-00001" summary="增加功能">
       <created>1531903292634</created>
@@ -263,11 +264,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531903292634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改错误">
+      <created>1531906342431</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531906342431</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20865000" />
+    <option name="totallyTimeSpent" value="24186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -310,7 +318,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加功能" />
+    <MESSAGE value="修改错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改错误" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/component/Line.js">
@@ -338,16 +347,6 @@
         <state relative-caret-position="-10" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -357,20 +356,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Couter.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/MuchCounter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="415">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="60" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Couter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
