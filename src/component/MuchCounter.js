@@ -6,26 +6,24 @@ export default class MuchCounter extends Component {
         super(props);
         this.state={summary:0};
     }
-    updateSum=(num)=>{
-         // let currentNum=this.state.summary;
-         // this.setState({count:currentNum+num});
-        this.setState(lastState=>({
-            summary:lastState.summary+num
-        }));
+    calculate=(num)=>{
+         let currentNum=this.state.summary;
+         this.setState({summary:currentNum+num});
     }
+
     productMuchCouters(size){
         let counters=[];
         for (let i = 0; i < size; i++) {
-            counters.push(<Counter updateSum={this.updateSum}/>);
+            counters.push(<Counter calculate={this.calculate}/>);
         }
         return counters;
     }
 
     render(){
         return(
-            <div class="group">
+            <div>
                 {this.productMuchCouters(this.props.size)}
-                <p>总数为 <span class="sum">{this.state.summary}</span></p>
+                <p>总数为 <span>{this.state.summary}</span></p>
             </div>
 
         )
